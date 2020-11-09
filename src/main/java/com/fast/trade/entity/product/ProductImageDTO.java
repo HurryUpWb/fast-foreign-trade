@@ -1,0 +1,94 @@
+package com.fast.trade.entity.product;
+
+import com.fast.trade.entity.BaseEntity;
+
+/**
+ * @title: ProductIMG
+ * @package com.fast.trade.entity.product
+ * @description:
+ * @author: wangbo
+ * @date: 2020/6/22 21:57
+ * @version: V1.0
+ */
+public class ProductImageDTO extends BaseEntity {
+
+
+    private Integer id;
+
+    private Integer tenantId;
+
+    private Integer productId;
+
+    private String productCode;
+
+    private String imgUrl;
+
+
+    public Integer getId() {
+
+        return id;
+    }
+
+
+
+    public void setId(Integer id) {
+
+        this.id = id;
+    }
+
+
+
+    public Integer getTenantId() {
+
+        return tenantId;
+    }
+
+
+
+    public void setTenantId(Integer tenantId) {
+
+        this.tenantId = tenantId;
+    }
+
+
+
+    public Integer getProductId() {
+
+        return productId;
+    }
+
+
+
+    public void setProductId(Integer productId) {
+
+        this.productId = productId;
+    }
+
+
+
+    public String getProductCode() {
+
+        return productCode;
+    }
+
+
+
+    public void setProductCode(String productCode) {
+
+        this.productCode = productCode;
+    }
+
+
+
+    public String getImgUrl() {
+
+        return imgUrl;
+    }
+
+
+
+    public void setImgUrl(String imgUrl) {
+
+        this.imgUrl = imgUrl;
+    }
+}

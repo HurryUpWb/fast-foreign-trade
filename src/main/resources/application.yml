@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/fast_foreign_trade?characterEncoding=utf-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: false
+
+ali:
+  oss:
+    endPoint: oss-cn-shanghai.aliyuncs.com
+    bucketName: car-shotter
+    accessKeyId: LTAI4GCbRikhTFLdpcKHxvfb
+    accessKeySecret: mrdlY2cdZl7zmOufs0LASGmLrhwF5B
+    bucketUrl: car-shotter.oss-cn-shanghai.aliyuncs.com
