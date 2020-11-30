@@ -13,6 +13,3 @@ ali:
   oss:
     endPoint: oss-cn-shanghai.aliyuncs.com
     bucketName: car-shotter
-    accessKeyId: LTAI4GCbRikhTFLdpcKHxvfb
-    accessKeySecret: mrdlY2cdZl7zmOufs0LASGmLrhwF5B
-    bucketUrl: car-shotter.oss-cn-shanghai.aliyuncs.com
